@@ -1,0 +1,83 @@
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  color: #1877f2;
+  font-size: 70px;
+  margin: 0;
+}
+
+.header .tagline {
+  font-size: 20px;
+  color: #606770;
+  margin-top: 8px;
+}
+
+.login-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 360px;
+  text-align: center;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #165ec9;
+}
+
+form a {
+  display: block;
+  margin: 12px 0;
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+form hr {
+  margin: 20px 0;
+}
+
+.create-account {
+  background-color: #42b72a;
+}
+
+.create-account:hover {
+  background-color: #36a420;
+}
+.create-account {
+  background-color: #42b72a;
+  width: 50%; /* Makes the button half the container width */
+  margin: 0 auto; /* Centers the button */
+}
